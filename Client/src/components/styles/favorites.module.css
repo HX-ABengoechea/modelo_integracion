@@ -1,0 +1,36 @@
+.div {
+   width: 100vw;
+   height: 92vh;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+
+.box {
+   width: 100vw;
+   height: 6vh;
+   background-color: rgba(128, 128, 128, 0.5);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.cards {
+   width: 100vw;
+   height: 86vh;
+   overflow: hidden;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding-top: 2vh;
+}
+
+.select {
+   width: 10vw;
+   height: 3vh;
+   font-size: 1em;
+   font-weight: bold;
+   display: flex;
+   justify-content: flex-start;
+   cursor: pointer;
+}
